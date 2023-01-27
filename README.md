@@ -26,7 +26,8 @@ This Kaggle dataset contains statistics (CSV files) on daily popular YouTube vid
 https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 ## Architecture Diagram
+*Diagram created by Darshil Parmar*
 <img src="architecture.jpeg">
 
 ## Project Credit
-This project was originally created and instructed by Darshil Parmar, edited for my own processes.
+This project was originally created and instructed by Darshil Parmar. The processes were edited for my own work.
