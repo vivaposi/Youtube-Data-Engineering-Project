@@ -1,6 +1,7 @@
-Last login: Thu Jan 26 19:16:40 on ttys002
-kyledelaney@Kyles-MacBook-Air ~ % aws s3 cp ./ s3://dataengineering-onyoutube-raw-useast1-dev/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
+# Copy all JSON reference files to a singular S3 bucket
+aws s3 cp ./ s3://dataengineering-onyoutube-raw-useast1-dev/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
 
+# Copy all of the raw data files to individual locations on an S3 bucket
 aws s3 cp CAvideos.csv s3://dataengineering-onyoutube-raw-useast1-dev/youtube/raw_statistics/region=ca/ 
 aws s3 cp DEvideos.csv s3://dataengineering-onyoutube-raw-useast1-dev/youtube/raw_statistics/region=de/ 
 aws s3 cp FRvideos.csv s3://dataengineering-onyoutube-raw-useast1-dev/youtube/raw_statistics/region=fr/ 
